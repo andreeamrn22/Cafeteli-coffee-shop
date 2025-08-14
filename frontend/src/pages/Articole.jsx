@@ -4,6 +4,7 @@ import { IoIosArrowUp } from "react-icons/io";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import ReusableHeader from "../components/ReusableHeader/ReusableHeader";
+import Articles from "../components/Articles/Articles";
 import poza from "../assets/website/background/mug-with-hot-coffee-newspapers.jpg";
 
 const Articole = () => {
@@ -35,6 +36,7 @@ const Articole = () => {
     <div>
       <Navbar />
       <ReusableHeader backgroundImage={poza} title="Articole" />
+      <Articles />
       <Footer />
       <motion.button
         onClick={scrollToTop}
