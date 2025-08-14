@@ -1,0 +1,196 @@
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./index.css";
+import Homepage from "../src/pages/Homepage";
+import Meniu from "../src/pages/Meniu";
+import Products from "../src/pages/Products";
+import CoffeeCategory from "../src/pages/CoffeeCategory";
+import OriginCoffee from "./pages/OriginCoffee";
+import BraziliaAltaMogianaFranca from "./components/OriginCoffee/BraziliaAltaMogianaFranca";
+import ColumbiaSupremo from "./components/OriginCoffee/ColumbiaSupremo";
+import CostaRica from "./components/OriginCoffee/CostaRica";
+import ElSalvador from "./components/OriginCoffee/ElSalvador";
+import EthiopiaYirgacheffe from "./components/OriginCoffee/EthiopiaYirgacheffe";
+import Guatemala from "./components/OriginCoffee/Guatemala";
+import Honduras from "./components/OriginCoffee/Honduras";
+import IndiaPlantation from "./components/OriginCoffee/IndiaPlantation";
+import IndiaMalabar from "./components/OriginCoffee/IndiaMalabar";
+import Kenya from "./components/OriginCoffee/Kenya";
+import Kilimanjaro from "./components/OriginCoffee/Kilimanjaro";
+import Mexic from "./components/OriginCoffee/Mexic";
+import NicaraguaMaragogype from "./components/OriginCoffee/NicaraguaMaragogype";
+import NicaraguaMatagalpa from "./components/OriginCoffee/NicaraguaMatagalpa";
+import PeruCajamarca from "./components/OriginCoffee/PeruCajamarca";
+import SanDomingo from "./components/OriginCoffee/SanDomingo";
+
+import BlendCoffee from "./pages/BlendCoffee";
+import Avedis from "./components/BlendCoffee/Avedis";
+import CafeaCiocolata from "./components/BlendCoffee/CafeaCiocolata";
+import CafeaIrish from "./components/BlendCoffee/CafeaIrish";
+import CafeaAromaIubire from "./components/BlendCoffee/CafeaAromaIubire";
+import CafeaAromavanilie from "./components/BlendCoffee/CafeaAromavanilie";
+import CafeaScortisoara from "./components/BlendCoffee/CafeaScortisoara";
+import CafeauaBunicii from "./components/BlendCoffee/CafeauaBunicii";
+import DegustoSupremo from "./components/BlendCoffee/DegustoSupremo";
+import MiscelaArabica from "./components/BlendCoffee/MiscelaArabica";
+import MiscelaCaraibica from "./components/BlendCoffee/MiscelaCaraibica";
+import MiscelaCeaMaiBunaCafea from "./components/BlendCoffee/MiscelaCeaMaiBunaCafea";
+import MiscelaDecofeinizata from "./components/BlendCoffee/MiscelaDecofeinizata";
+import MiscelaItaliana from "./components/BlendCoffee/MiscelaItaliana";
+
+import TeaCategory from "../src/pages/TeaCategory";
+import CeaiuriTub from "./pages/CeaiuriTub";
+import CeaiuriVrac from "./pages/CeaiuriVrac";
+import CeaiuriPlic from "./pages/CeaiuriPlic";
+import CeaiuriPiramida from "./pages/CeaiuriPiramida";
+import CeaiuriAsortate from "./pages/CeaiuriAsortate";
+
+import BucuriaProducts from "./pages/BucuriaProducts";
+import AccesoriesProducts from "./pages/AccesoriesProducts";
+
+import Articole from "./pages/Articole";
+import Contact from "../src/pages/Contact";
+import Locations from "../src/pages/Locations";
+import Marvimex from "./components/Locations/Marvimex";
+import CasaDeCultura from "./components/Locations/CasaDeCultura";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/meniu" element={<Meniu />} />
+        <Route path="/produse" element={<Products />} />
+        <Route path="/produse/cafea" element={<CoffeeCategory />} />
+        <Route path="/produse/cafea/origini" element={<OriginCoffee />} />
+        <Route
+          path="/produse/cafea/origini/brazilia_alta_mogiana_franca"
+          element={<BraziliaAltaMogianaFranca />}
+        />
+        <Route
+          path="/produse/cafea/origini/columbia_supremo"
+          element={<ColumbiaSupremo />}
+        />
+        <Route
+          path="/produse/cafea/origini/costa_rica_san_rafael_tarrazu"
+          element={<CostaRica />}
+        />
+        <Route
+          path="/produse/cafea/origini/el_savador_himalaya"
+          element={<ElSalvador />}
+        />
+        <Route
+          path="/produse/cafea/origini/ethiopia_yirgacheffe"
+          element={<EthiopiaYirgacheffe />}
+        />
+        <Route
+          path="/produse/cafea/origini/guatemala"
+          element={<Guatemala />}
+        />
+        <Route
+          path="/produse/cafea/origini/india_aa_plantation"
+          element={<IndiaPlantation />}
+        />
+        <Route
+          path="/produse/cafea/origini/india_malabar"
+          element={<IndiaMalabar />}
+        />
+        <Route
+          path="/produse/cafea/origini/kilimanjaro_moshi"
+          element={<Kilimanjaro />}
+        />
+        <Route
+          path="/produse/cafea/origini/mexic_finca_monte_azul"
+          element={<Mexic />}
+        />
+        <Route
+          path="/produse/cafea/origini/nicaragua_maragogype"
+          element={<NicaraguaMaragogype />}
+        />
+        <Route
+          path="/produse/cafea/origini/nicaragua_matagalpa"
+          element={<NicaraguaMatagalpa />}
+        />
+        <Route
+          path="/produse/cafea/origini/peru_cajamarca"
+          element={<PeruCajamarca />}
+        />
+        <Route
+          path="/produse/cafea/origini/san_somingo_barahona"
+          element={<SanDomingo />}
+        />
+        <Route path="/produse/cafea/origini/kenya_aa_tq" element={<Kenya />} />
+        <Route path="/produse/cafea/origini/honduras" element={<Honduras />} />
+
+        <Route path="/produse/cafea/blend" element={<BlendCoffee />} />
+        <Route path="/produse/cafea/blend/cafea_avedis" element={<Avedis />} />
+        <Route
+          path="/produse/cafea/blend/cafea_cu_aroma_de_ciocolata"
+          element={<CafeaCiocolata />}
+        />
+        <Route
+          path="/produse/cafea/blend/cafea_cu_aroma_de_irish_coffee"
+          element={<CafeaIrish />}
+        />
+        <Route
+          path="/produse/cafea/blend/cafea_cu_aroma_de_iubire"
+          element={<CafeaAromaIubire />}
+        />
+        <Route
+          path="/produse/cafea/blend/cafea_cu_aroma_de_vanilie"
+          element={<CafeaAromavanilie />}
+        />
+        <Route
+          path="/produse/cafea/blend/cafea_cu_scortisoara"
+          element={<CafeaScortisoara />}
+        />
+        <Route
+          path="/produse/cafea/blend/cafeaua_bunicii_100_arabica"
+          element={<CafeauaBunicii />}
+        />
+        <Route
+          path="/produse/cafea/blend/degusto_suprema"
+          element={<DegustoSupremo />}
+        />
+        <Route
+          path="/produse/cafea/blend/miscela_arabica"
+          element={<MiscelaArabica />}
+        />
+        <Route
+          path="/produse/cafea/blend/miscela_caraibica"
+          element={<MiscelaCaraibica />}
+        />
+        <Route
+          path="/produse/cafea/blend/miscela_cea_mai_buna_cafea"
+          element={<MiscelaCeaMaiBunaCafea />}
+        />
+        <Route
+          path="/produse/cafea/blend/miscela_decofeinizata"
+          element={<MiscelaDecofeinizata />}
+        />
+        <Route
+          path="/produse/cafea/blend/miscela_italiana"
+          element={<MiscelaItaliana />}
+        />
+
+        <Route path="/produse/ceaiuri" element={<TeaCategory />} />
+        <Route path="/produse/ceaiuri/tub" element={<CeaiuriTub />} />
+        <Route path="/produse/ceaiuri/vrac" element={<CeaiuriVrac />} />
+        <Route path="/produse/ceaiuri/plic" element={<CeaiuriPlic />} />
+        <Route path="/produse/ceaiuri/piramida" element={<CeaiuriPiramida />} />
+        <Route path="/produse/ceaiuri/asortate" element={<CeaiuriAsortate />} />
+        <Route path="/produse/bucuria" element={<BucuriaProducts />} />
+        <Route path="/produse/accesorii" element={<AccesoriesProducts />} />
+
+        <Route path="/articole" element={<Articole />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/locatii" element={<Locations />} />
+        <Route path="/locatii/marvimex" element={<Marvimex />} />
+        <Route path="/locatii/casa-de-cultura" element={<CasaDeCultura />} />
+      </Routes>
+    </Router>
+  </StrictMode>
+);
