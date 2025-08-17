@@ -2,16 +2,27 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaArrowRightLong } from "react-icons/fa6";
 
-const TeaProductsDisplay = ({ products }) => {
+const TeaProductsDisplay = ({ products, productType }) => {
   const cardVariants = {
     hidden: { opacity: 0, scale: 0.9 },
     visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
   };
 
+  const getImageClass = () => {
+    switch (productType) {
+      case "tea":
+        return "h-60 w-auto md:h-72 lg:h-80 object-contain group-hover:scale-105 transition-transform duration-300";
+      case "accessories":
+        return "h-full w-auto md:h-72 lg:h-full object-contain group-hover:scale-105 transition-transform duration-300";
+      default:
+        return "h-full w-auto md:h-72 lg:h-full object-contain group-hover:scale-105 transition-transform duration-300";
+    }
+  };
+
   const productCount = products.length;
   return (
     <div className="py-10 font-serif">
-      <div className="mx-auto px-8 md:px-8 lg:px-40">
+      <div className="mx-auto px-8 md:px-8 lg:px-20 xl:px-40">
         <div className="mb-10 text-xl md:text-3xl">
           Afișate toate cele {productCount} de rezultate
         </div>
@@ -30,7 +41,7 @@ const TeaProductsDisplay = ({ products }) => {
               <img
                 src={product.image}
                 alt={product.name}
-                className="w-auto h-72 md:h-80 object-contain group-hover:scale-105 transition-transform duration-300"
+                className={getImageClass()}
               />
 
               <div className="text-center w-full">

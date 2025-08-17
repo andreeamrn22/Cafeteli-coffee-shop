@@ -93,7 +93,7 @@ const BlendCoffeePage = () => {
 
   return (
     <div className="py-10 font-serif">
-      <div className="mx-auto px-8 md:px-20 lg:px-40">
+      <div className="mx-auto px-8 md:px-20 lg:px-16 xl:px-40">
         <div className="mb-10 text-xl md:text-3xl ">
           Afișate toate cele {productCount} de rezultate
         </div>

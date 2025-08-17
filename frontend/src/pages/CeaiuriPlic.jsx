@@ -147,7 +147,7 @@ const CeaiuriPlic = () => {
     <div>
       <Navbar />
       <ReusableHeader backgroundImage={poza} title="Ceaiuri plic" />
-      <ProductDisplay products={products} />
+      <ProductDisplay products={products} productType="tea" />
       <Footer />
       <motion.button
         onClick={scrollToTop}

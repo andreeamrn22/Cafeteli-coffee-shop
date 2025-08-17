@@ -111,7 +111,7 @@ const CeaiuriTub = () => {
     <div>
       <Navbar />
       <ReusableHeader backgroundImage={poza} title="Ceaiuri tub" />
-      <ProductDisplay products={products} />
+      <ProductDisplay products={products} productType="tea" />
       <Footer />
       <motion.button
         onClick={scrollToTop}

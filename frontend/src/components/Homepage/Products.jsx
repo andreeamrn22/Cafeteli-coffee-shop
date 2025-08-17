@@ -45,7 +45,7 @@ const Products = () => {
             viewport={{ once: true, amount: 0.2 }}
             className="text-4xl font-bold font-serif text-primary px-5 text-center"
           >
-            Cele mai populare produse
+            Selecția noastră de cafea
           </motion.h1>
         </div>
         {/* Service Card Section */}
@@ -61,7 +61,7 @@ const Products = () => {
               <a
                 key={data.id}
                 href={data.href}
-                className="rounded-2xl bg-white shadow-xl duration-high max-w-[300px] group relative transition-all"
+                className="rounded-2xl bg-white shadow-xl duration-high max-w-[350px] group relative transition-all"
               >
                 {/* img section */}
                 <div className="flex justify-center items-center p-4 h-[300px]">
@@ -82,7 +82,7 @@ const Products = () => {
             );
           })}
         </motion.div>
-        {/* Buton catre meniu */}
+        {/* Buton catre produse */}
         <motion.div
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -91,10 +91,10 @@ const Products = () => {
           className="flex justify-center items-center py-14"
         >
           <a
-            href="/produse"
+            href="/produse/cafea"
             className="w-64 h-14 bg-primary/40 hover:bg-primary/90 rounded-full font-serif text-xl flex justify-center items-center"
           >
-            Vezi produsele noastre
+            Vezi mai multe
           </a>
         </motion.div>
         <div className="flex flex-col items-center justify-center mt-10">

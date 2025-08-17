@@ -141,7 +141,7 @@ const CeaiuriPiramida = () => {
     <div>
       <Navbar />
       <ReusableHeader backgroundImage={poza} title="Ceaiuri piramidă" />
-      <ProductDisplay products={products} />
+      <ProductDisplay products={products} productType="tea" />
       <Footer />
       <motion.button
         onClick={scrollToTop}

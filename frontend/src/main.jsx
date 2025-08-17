@@ -48,6 +48,14 @@ import CeaiuriAsortate from "./pages/CeaiuriAsortate";
 
 import BucuriaProducts from "./pages/BucuriaProducts";
 import AccesoriesProducts from "./pages/AccesoriesProducts";
+import Ibric300 from "./components/AccesoriesProducts/Ibric300";
+import Ibric400 from "./components/AccesoriesProducts/Ibric400";
+import Ibric500 from "./components/AccesoriesProducts/Ibric500";
+import Ibric600 from "./components/AccesoriesProducts/Ibric600";
+import Ibric700 from "./components/AccesoriesProducts/Ibric700";
+import Ibric1000 from "./components/AccesoriesProducts/Ibric1000";
+import CanaCupru from "./components/AccesoriesProducts/CanaCupru";
+import PaharCupru from "./components/AccesoriesProducts/PaharCupru";
 
 import Articole from "./pages/Articole";
 import Contact from "../src/pages/Contact";
@@ -184,6 +192,14 @@ createRoot(document.getElementById("root")).render(
         <Route path="/produse/ceaiuri/asortate" element={<CeaiuriAsortate />} />
         <Route path="/produse/bucuria" element={<BucuriaProducts />} />
         <Route path="/produse/accesorii" element={<AccesoriesProducts />} />
+        <Route path="/produse/accesorii/ibric_300ml" element={<Ibric300 />} />
+        <Route path="/produse/accesorii/ibric_400ml" element={<Ibric400 />} />
+        <Route path="/produse/accesorii/ibric_500ml" element={<Ibric500 />} />
+        <Route path="/produse/accesorii/ibric_600ml" element={<Ibric600 />} />
+        <Route path="/produse/accesorii/ibric_700ml" element={<Ibric700 />} />
+        <Route path="/produse/accesorii/ibric_1L" element={<Ibric1000 />} />
+        <Route path="/produse/accesorii/cana_cupru" element={<CanaCupru />} />
+        <Route path="/produse/accesorii/pahar_cupru" element={<PaharCupru />} />
 
         <Route path="/articole" element={<Articole />} />
         <Route path="/contact" element={<Contact />} />

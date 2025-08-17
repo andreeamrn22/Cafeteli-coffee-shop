@@ -46,18 +46,29 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 0.4 }}
             viewport={{ once: true, amount: 0.2 }}
-            className="font-serif text-secondary text-lg"
+            className="font-serif text-secondary text-xl space-y-4"
           >
-            Fondată în 2014, Bean Haven a început ca o mică rulotă cu cafea în
-            inima orașului. Fondatoarii noastri, Marin Daniel și Marin Nina, au
-            avut viziunea de a aduce comunității noastre cea mai fină cafea,
-            provenită din surse etice. Ceea ce a început ca o dragoste pentru
-            ceașca perfectă de cafea a crescut într-o afacere înfloritoare, dar
-            valorile noastre fundamentale rămân aceleași. Credem că o cafea
-            excelentă este o formă de artă. De la selectarea cu atenție a celor
-            mai bune boabe de la ferme sustenabile din întreaga lume până la
-            prăjirea meticuloasă a acestora până la perfecțiune, fiecare pas din
-            procesul nostru este realizat cu dragoste și expertiză.
+            <p>
+              Fondată în 2014, Cafeteli a pornit cu o misiune simplă, dar plină
+              de pasiune: să aducă comunității din Constanța o cafea de calitate
+              superioară, atent aleasă și pregătită pentru momente de răsfăț.
+              De-a lungul anilor, am devenit un punct de referință pentru
+              iubitorii de cafea, păstrând mereu aceleași valori: calitate,
+              atenție la detalii și respect pentru clienți.
+            </p>
+            <p>
+              Selectăm cu grijă fiecare produs și colaborăm cu parteneri de
+              încredere, precum Leonard Caffe, pentru a aduce în fiecare ceașcă
+              arome autentice și proaspete. Universul Cafeteli s-a extins și
+              dincolo de cafea, cu ceaiuri rafinate Lovare, bomboane delicioase
+              Bucuria și accesorii menite să transforme fiecare degustare într-o
+              experiență completă.
+            </p>
+            <p>
+              Pentru noi, fiecare ceașcă nu este doar o băutură, ci o poveste, o
+              clipă de liniște și un mic ritual pe care îl împărtășim cu drag cu
+              tine.
+            </p>
           </motion.p>
         </div>
       </div>

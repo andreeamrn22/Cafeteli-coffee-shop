@@ -10,7 +10,8 @@ const ServicesData = [
     id: 1,
     image: espreso,
     name: "Espresso",
-    description: "Un espresso intens și aromat, perfect pentru a începe ziua.",
+    description:
+      "Un espresso intens și aromat, perfect pentru un început de zi plin de energie",
   },
   {
     id: 2,
@@ -54,7 +55,7 @@ const Services = () => {
         >
           {ServicesData.map((data, index) => {
             return (
-              <div className="rounded-2xl bg-white  shadow-xl duration-high max-w-[300px] group relative transition-all">
+              <div className="rounded-2xl bg-white shadow-xl duration-high max-w-[350px] group relative transition-all">
                 {/* img section  */}
                 <div className="h-[122px]">
                   <img
@@ -66,7 +67,7 @@ const Services = () => {
                 {/* Text content */}
                 <div className="p-4 text-center font-serif space-y-3">
                   <h1 className="text-2xl font-bold ">{data.name}</h1>
-                  <p className="text-gray-500 group-hover:text-black duration-high text-md line-clamp-2">
+                  <p className="text-gray-500 group-hover:text-black duration-high text-md mt-3">
                     {data.description}
                   </p>
                 </div>
@@ -86,7 +87,7 @@ const Services = () => {
             href="/meniu"
             className="w-64 h-14 bg-primary/40 hover:bg-primary/90 rounded-full font-serif text-xl flex justify-center items-center"
           >
-            Vezi tot meniul nostru
+            Vezi meniul nostru
           </a>
         </motion.div>
         <div className="flex flex-col items-center justify-center mt-20">
