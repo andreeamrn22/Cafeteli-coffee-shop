@@ -33,7 +33,7 @@ const productData = {
         {
           label: "Prima variantă",
           value:
-            "Doar cu ajutorul a 200-300 ml de oțet și puțină sare măruntă de bucatarie, de preferabil iodată. Cum se procedează? Se toarnă oțet pe ibric, apoi se pune sare până când se acoperă stratul de oțet, se toarnă din nou oțet până când se acoperă stratul de sare și se lasă 10-20 secunde. Apoi se pune oțet pe un burete de bucatarie și se freaca produsul pana revine la strălucirea inițială.",
+            "Soluție specială pentru curățarea și lustruirea produselor din cupru. (se găsesc în comerț).",
         },
         {
           label: "A doua variantă",
@@ -43,7 +43,7 @@ const productData = {
         {
           label: "A treia variantă",
           value:
-            "Soluție specială pentru curățarea și lustruirea produselor din cupru. (se găsesc în comerț)",
+            "Doar cu ajutorul a 200-300 ml de oțet și puțină sare măruntă de bucatarie, de preferabil iodată. Cum se procedează? Se toarnă oțet pe ibric, apoi se pune sare până când se acoperă stratul de oțet, se toarnă din nou oțet până când se acoperă stratul de sare și se lasă 10-20 secunde. Apoi se pune oțet pe un burete de bucatarie și se freaca produsul pana revine la strălucirea inițială.",
         },
       ],
     },

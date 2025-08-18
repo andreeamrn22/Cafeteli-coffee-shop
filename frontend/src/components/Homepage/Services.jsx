@@ -11,7 +11,7 @@ const ServicesData = [
     image: espreso,
     name: "Espresso",
     description:
-      "Un espresso intens și aromat, perfect pentru un început de zi plin de energie",
+      "Un espresso intens și aromat, perfect pentru un început de zi plin de energie.",
   },
   {
     id: 2,

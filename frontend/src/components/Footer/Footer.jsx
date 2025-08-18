@@ -53,7 +53,7 @@ const Footer = () => {
             {/* footer links */}
             <div className="py-8 md:px-10 lg:px-16 text-left">
               <h1 className="text-3xl md:text-3xl font-semibold mb-5">
-                Link-uri rapide
+                Navigare
               </h1>
               <ul className="space-y-6 md:space-y-5 ">
                 {ServicesLinks.map((link, index) => (
@@ -83,7 +83,7 @@ const Footer = () => {
               </div>
               {/* social media section */}
               <div>
-                <h1 className="text-3xl font-semibold mb-3">Urmărește-ne</h1>
+                <h1 className="text-3xl font-semibold mb-3">Ne găsești pe</h1>
                 <div className="flex items-center gap-10 mt-6">
                   <a
                     href="https://www.facebook.com/cafeteli.constanta"

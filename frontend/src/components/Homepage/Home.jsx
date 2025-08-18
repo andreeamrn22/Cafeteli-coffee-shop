@@ -18,8 +18,8 @@ const Home = () => {
             className="text-5xl md:text-4xl lg:text-6xl font-bold font-serif md:text-left px-3"
           >
             Cea mai bună{" "}
-            <span className="text-primary font-cursive">cafea</span> pe onoarea
-            mea
+            <span className="text-primary font-cursive">cafea</span>, pe onoarea
+            mea!
           </motion.h3>
           <motion.p
             initial={{ opacity: 0, y: -20 }}
@@ -29,7 +29,7 @@ const Home = () => {
           >
             La noi, cafeaua Leonard Caffe este mai mult decât o băutură – este o
             tradiție a gustului desăvârșit. Te invităm să descoperi aromele
-            alese, pentru că fiecare bob poartă o poveste
+            alese, pentru că fiecare bob poartă o poveste.
           </motion.p>
           <motion.button
             initial={{ opacity: 0, y: -20 }}
