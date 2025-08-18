@@ -3,13 +3,13 @@ import React from "react";
 const ReusableHeader = ({ backgroundImage, title }) => {
   const background = {
     backgroundImage: `url(${backgroundImage})`,
-    backgroundPosition: "bottom",
+    backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
   };
   return (
     <div
-      className="relative h-[300px] overflow-hidden bg-fixed"
+      className="relative h-[300px] overflow-hidden md:bg-fixed"
       style={background}
     >
       <div className="absolute inset-0 bg-[rgba(0,0,0,0.35)] flex items-center justify-center text-center ">

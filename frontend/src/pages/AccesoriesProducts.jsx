@@ -48,7 +48,7 @@ const products = [
   },
   {
     image: cana_cupru,
-    name: "Cana cupru",
+    name: "Cană cupru",
     href: "/produse/accesorii/cana_cupru",
   },
   {

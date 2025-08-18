@@ -52,7 +52,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2">
             {/* footer links */}
             <div className="py-8 md:px-10 lg:px-16 text-left">
-              <h1 className="text-xl md:text-3xl font-semibold mb-5">
+              <h1 className="text-3xl md:text-3xl font-semibold mb-5">
                 Link-uri rapide
               </h1>
               <ul className="space-y-6 md:space-y-5 ">
@@ -60,7 +60,7 @@ const Footer = () => {
                   <li key={index}>
                     <a
                       href={link.link}
-                      className="text-xl md:text-xl font-bold transition-transform duration-200 hover:scale-110 inline-block"
+                      className="text-2xl md:text-xl font-bold transition-transform duration-200 hover:scale-110 inline-block"
                     >
                       {link.name}
                     </a>

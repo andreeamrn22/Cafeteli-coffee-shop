@@ -13,12 +13,12 @@ const ContactPage = () => {
 
   const locations = [
     {
-      name: "Coffee Shop Marvimex",
+      name: "Cafeteli - Marvimex",
       address: "Str. Dumitru Marinescu nr. 17, Constanța",
       link: "/locatii/marvimex",
     },
     {
-      name: "Coffee Shop Casa de Cultură",
+      name: "Cafeteli - Casa de Cultură",
       address: "Str. I.G. Duca nr. 81, Constanța",
       link: "/locatii/casa-de-cultura",
     },

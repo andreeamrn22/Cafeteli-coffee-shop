@@ -6,7 +6,29 @@ import pahar_cupru_1 from "../../assets/website/produse/accesorii/pahar_cupru/pa
 const productData = {
   title: "Pahar din cupru",
   images: [pahar_cupru, pahar_cupru_1],
-  specs: [{ label: "Întreținere", value: "In curand" }],
+  description: "Pahar din cupru este executat din cupru alimentar 99,97%.",
+  instructions: [
+    {
+      title: "Instrucțiuni de întreținere",
+      details: [
+        {
+          label: "Prima variantă",
+          value:
+            "Doar cu ajutorul a 200-300 ml de oțet și puțină sare măruntă de bucatarie, de preferabil iodată. Cum se procedează? Se toarnă oțet pe pahar, apoi se pune sare până când se acoperă stratul de oțet, se toarnă din nou oțet până când se acoperă stratul de sare și se lasă 10-20 secunde. Apoi se pune oțet pe un burete de bucatarie și se freaca produsul pana revine la strălucirea inițială.",
+        },
+        {
+          label: "A doua variantă",
+          value:
+            "Tăiați o lămâie în două jumătăți, înmuiați jumătatea de lămâie în sare fină și frecați ușor suprafața paharului. Clătiți cu apă călduță, apoi uscați cu o cârpă uscată.",
+        },
+        {
+          label: "A treia variantă",
+          value:
+            "Soluție specială pentru curățarea și lustruirea produselor din cupru. (se găsesc în comerț)",
+        },
+      ],
+    },
+  ],
 };
 
 const PaharCupru = () => {

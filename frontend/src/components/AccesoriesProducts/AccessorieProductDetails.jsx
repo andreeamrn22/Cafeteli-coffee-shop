@@ -4,10 +4,12 @@ import { IoIosArrowUp } from "react-icons/io";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
+import { FaChevronDown } from "react-icons/fa";
 
 const AccesorieProductDetails = ({ productData }) => {
   const [showGoToTop, setShowGoToTop] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [openSections, setOpenSections] = useState({});
 
   useEffect(() => {
     const handleScroll = () => {
@@ -17,7 +19,6 @@ const AccesorieProductDetails = ({ productData }) => {
         setShowGoToTop(false);
       }
     };
-
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
@@ -43,6 +44,13 @@ const AccesorieProductDetails = ({ productData }) => {
     );
   };
 
+  const toggleSection = (sectionTitle) => {
+    setOpenSections((prev) => ({
+      ...prev,
+      [sectionTitle]: !prev[sectionTitle],
+    }));
+  };
+
   return (
     <div>
       <Navbar />
@@ -57,7 +65,6 @@ const AccesorieProductDetails = ({ productData }) => {
             >
               <FaChevronLeft size={24} />
             </button>
-
             {/* Imaginea */}
             <div className="w-full max-w-lg p-8 flex items-center justify-center overflow-hidden">
               <AnimatePresence mode="wait">
@@ -73,7 +80,6 @@ const AccesorieProductDetails = ({ productData }) => {
                 />
               </AnimatePresence>
             </div>
-
             {/* Buton dreapta */}
             <button
               onClick={nextImage}
@@ -83,37 +89,65 @@ const AccesorieProductDetails = ({ productData }) => {
             </button>
           </div>
 
-          {/* Coloana pentru descriere */}
+          {/* Coloana pentru descriere și instrucțiuni */}
           <div className="text-gray-800">
-            <h1
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-4xl md:text-5xl font-bold mb-20"
-            >
+            <h1 className="text-4xl md:text-5xl font-bold mb-8">
               {productData.title}
             </h1>
 
-            <div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.4 }}
-              className="mt-6"
-            >
-              <ul className="space-y-5">
-                {productData.specs.map((spec, index) => (
-                  <li key={index} className="flex items-left">
-                    <p className="font-bold text-gray-600 w-40 text-xl flex-shrink-0 pr-4">
-                      {spec.label}:
-                    </p>
-                    {spec.isRating ? (
-                      <CoffeeRating rating={spec.value} />
-                    ) : (
-                      <p className="text-gray-800 text-xl">{spec.value}</p>
+            {/* Secțiunea Descriere */}
+            <div className="mb-8">
+              <h2 className="text-2xl font-bold text-gray-700 mb-2">
+                Descriere
+              </h2>
+              <p className="text-lg text-gray-800">{productData.description}</p>
+            </div>
+
+            {/* Secțiunea Instrucțiuni (Accordion) */}
+            <div>
+              {productData.instructions.map((section, index) => (
+                <div key={index} className="border-b border-gray-300 py-4">
+                  <button
+                    onClick={() => toggleSection(section.title)}
+                    className="w-full flex justify-between items-center text-left py-2 focus:outline-none"
+                  >
+                    <h2 className="text-2xl font-bold text-gray-700">
+                      {section.title}
+                    </h2>
+                    <FaChevronDown
+                      className={`transform transition-transform duration-300 ${
+                        openSections[section.title] ? "rotate-180" : "rotate-0"
+                      }`}
+                    />
+                  </button>
+                  <AnimatePresence>
+                    {openSections[section.title] && (
+                      <motion.div
+                        initial={{ opacity: 0, height: 0 }}
+                        animate={{ opacity: 1, height: "auto" }}
+                        exit={{ opacity: 0, height: 0 }}
+                        transition={{ duration: 0.3 }}
+                        className="overflow-hidden"
+                      >
+                        <div className="mt-4">
+                          {section.details.map((item, itemIndex) => (
+                            <div key={itemIndex} className="mb-4">
+                              {item.label && (
+                                <p className="font-bold text-gray-600 mb-1">
+                                  {item.label}:
+                                </p>
+                              )}
+                              <p className="text-lg text-gray-800">
+                                {item.value}
+                              </p>
+                            </div>
+                          ))}
+                        </div>
+                      </motion.div>
                     )}
-                  </li>
-                ))}
-              </ul>
+                  </AnimatePresence>
+                </div>
+              ))}
             </div>
           </div>
         </div>

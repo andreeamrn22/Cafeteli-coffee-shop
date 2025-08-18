@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { FaArrowAltCircleUp } from "react-icons/fa";
+import { IoIosArrowUp } from "react-icons/io";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import MarvimexContact from "./MarvimexContact";
@@ -58,7 +58,7 @@ const Marvimex = () => {
         transition={{ duration: 0.3 }}
         className="fixed bottom-10 right-10 bg-primary hover:bg-secondary/80 text-white font-bold py-4 px-4 rounded-full z-10 shadow-xl"
       >
-        <FaArrowAltCircleUp />
+        <IoIosArrowUp className="text-3xl" />
       </motion.button>
     </div>
   );

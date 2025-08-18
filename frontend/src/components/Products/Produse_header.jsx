@@ -11,7 +11,7 @@ const background = {
 const Produse_header = () => {
   return (
     <div
-      className="relative h-[300px] overflow-hidden bg-fixed"
+      className="relative h-[300px] overflow-hidden md:bg-fixed"
       style={background}
     >
       <div className="absolute inset-0 bg-[rgba(0,0,0,0.35)] flex items-center justify-center text-center ">
