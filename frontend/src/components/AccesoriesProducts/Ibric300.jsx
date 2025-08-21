@@ -41,7 +41,7 @@ const productData = {
         {
           label: "Prima variantă",
           value:
-            "Soluție specială pentru curățarea și lustruirea produselor din cupru. (se găsesc în comerț).",
+            "Soluție specială pentru curățarea și lustruirea produselor din cupru. (se găsesc în comerț)",
         },
         {
           label: "A doua variantă",

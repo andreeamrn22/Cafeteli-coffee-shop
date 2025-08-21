@@ -55,7 +55,7 @@ const AccesorieProductDetails = ({ productData }) => {
     <div>
       <Navbar />
       <div className="py-16 font-serif">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
           {/* Coloana pentru slideshow de imagini */}
           <div className="relative flex justify-center items-center">
             {/* Buton stânga */}
@@ -96,59 +96,84 @@ const AccesorieProductDetails = ({ productData }) => {
             </h1>
 
             {/* Secțiunea Descriere */}
-            <div className="mb-8">
-              <h2 className="text-2xl font-bold text-gray-700 mb-2">
-                Descriere
-              </h2>
-              <p className="text-lg text-gray-800">{productData.description}</p>
-            </div>
+            {productData.description && (
+              <div className="mb-8">
+                <h2 className="text-2xl font-bold text-gray-700 mb-2">
+                  Descriere
+                </h2>
+                <p className="text-lg text-gray-800">
+                  {productData.description}
+                </p>
+              </div>
+            )}
 
-            {/* Secțiunea Instrucțiuni (Accordion) */}
-            <div>
-              {productData.instructions.map((section, index) => (
-                <div key={index} className="border-b border-gray-300 py-4">
-                  <button
-                    onClick={() => toggleSection(section.title)}
-                    className="w-full flex justify-between items-center text-left py-2 focus:outline-none"
-                  >
-                    <h2 className="text-2xl font-bold text-gray-700">
-                      {section.title}
-                    </h2>
-                    <FaChevronDown
-                      className={`transform transition-transform duration-300 ${
-                        openSections[section.title] ? "rotate-180" : "rotate-0"
-                      }`}
-                    />
-                  </button>
-                  <AnimatePresence>
-                    {openSections[section.title] && (
-                      <motion.div
-                        initial={{ opacity: 0, height: 0 }}
-                        animate={{ opacity: 1, height: "auto" }}
-                        exit={{ opacity: 0, height: 0 }}
-                        transition={{ duration: 0.3 }}
-                        className="overflow-hidden"
+            {/* Secțiunea de specificatii simple (dacă există) */}
+            {productData.specs && (
+              <div className="mt-6">
+                <ul className="space-y-5">
+                  {productData.specs.map((spec, index) => (
+                    <li key={index} className="flex items-left mb-4">
+                      <p className="font-bold text-gray-600 w-40 text-xl flex-shrink-0 pr-4">
+                        {spec.label}:
+                      </p>
+                      <p className="text-gray-800 text-xl">{spec.value}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {/* Secțiunea Instrucțiuni (Accordion) - pentru produsele complexe */}
+            {productData.instructions &&
+              productData.instructions.length > 0 && (
+                <div>
+                  {productData.instructions.map((section, index) => (
+                    <div key={index} className="border-b border-gray-300 py-4">
+                      <button
+                        onClick={() => toggleSection(section.title)}
+                        className="w-full flex justify-between items-center text-left py-2 focus:outline-none"
                       >
-                        <div className="mt-4">
-                          {section.details.map((item, itemIndex) => (
-                            <div key={itemIndex} className="mb-4">
-                              {item.label && (
-                                <p className="font-bold text-gray-600 mb-1">
-                                  {item.label}:
-                                </p>
-                              )}
-                              <p className="text-lg text-gray-800">
-                                {item.value}
-                              </p>
+                        <h2 className="text-2xl font-bold text-gray-700">
+                          {section.title}
+                        </h2>
+                        <FaChevronDown
+                          className={`transform transition-transform duration-300 ${
+                            openSections[section.title]
+                              ? "rotate-180"
+                              : "rotate-0"
+                          }`}
+                        />
+                      </button>
+                      <AnimatePresence>
+                        {openSections[section.title] && (
+                          <motion.div
+                            initial={{ opacity: 0, height: 0 }}
+                            animate={{ opacity: 1, height: "auto" }}
+                            exit={{ opacity: 0, height: 0 }}
+                            transition={{ duration: 0.3 }}
+                            className="overflow-hidden"
+                          >
+                            <div className="mt-4">
+                              {section.details.map((item, itemIndex) => (
+                                <div key={itemIndex} className="mb-4">
+                                  {item.label && (
+                                    <p className="font-bold text-gray-600 mb-1">
+                                      {item.label}:
+                                    </p>
+                                  )}
+                                  <p className="text-lg text-gray-800">
+                                    {item.value}
+                                  </p>
+                                </div>
+                              ))}
                             </div>
-                          ))}
-                        </div>
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
+                          </motion.div>
+                        )}
+                      </AnimatePresence>
+                    </div>
+                  ))}
                 </div>
-              ))}
-            </div>
+              )}
           </div>
         </div>
       </div>

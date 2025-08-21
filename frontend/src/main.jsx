@@ -56,6 +56,7 @@ import Ibric700 from "./components/AccesoriesProducts/Ibric700";
 import Ibric1000 from "./components/AccesoriesProducts/Ibric1000";
 import CanaCupru from "./components/AccesoriesProducts/CanaCupru";
 import PaharCupru from "./components/AccesoriesProducts/PaharCupru";
+import CeainicVerde from "./components/AccesoriesProducts/CeainicVerde";
 
 import Articole from "./pages/Articole";
 import Contact from "../src/pages/Contact";
@@ -64,6 +65,12 @@ import Marvimex from "./components/Locations/Marvimex";
 import CasaDeCultura from "./components/Locations/CasaDeCultura";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import MachinetaMoo from "./components/AccesoriesProducts/MachinetaMoo";
+import MachinetaRosie from "./components/AccesoriesProducts/MachinetaRosie";
+import RasnitaMare from "./components/AccesoriesProducts/RasnitaMare";
+import RasnitaMica from "./components/AccesoriesProducts/RasnitaMica";
+import RasnitaMareMDeschid from "./components/AccesoriesProducts/RasnitaMareMDeschid";
+import RasnitaMicaMDeschid from "./components/AccesoriesProducts/RasnitaMicaMDeschid";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -200,6 +207,34 @@ createRoot(document.getElementById("root")).render(
         <Route path="/produse/accesorii/ibric_1L" element={<Ibric1000 />} />
         <Route path="/produse/accesorii/cana_cupru" element={<CanaCupru />} />
         <Route path="/produse/accesorii/pahar_cupru" element={<PaharCupru />} />
+        <Route
+          path="/produse/accesorii/rasnita_mare"
+          element={<RasnitaMare />}
+        />
+        <Route
+          path="/produse/accesorii/rasnita_mica"
+          element={<RasnitaMica />}
+        />
+        <Route
+          path="/produse/accesorii/rasnita_mare_maro_deschis"
+          element={<RasnitaMareMDeschid />}
+        />
+        <Route
+          path="/produse/accesorii/rasnita_mica_maro_deschis"
+          element={<RasnitaMicaMDeschid />}
+        />
+        <Route
+          path="/produse/accesorii/ceainic_verde"
+          element={<CeainicVerde />}
+        />
+        <Route
+          path="/produse/accesorii/machineta_moo"
+          element={<MachinetaMoo />}
+        />
+        <Route
+          path="/produse/accesorii/machineta_rosie"
+          element={<MachinetaRosie />}
+        />
 
         <Route path="/articole" element={<Articole />} />
         <Route path="/contact" element={<Contact />} />
