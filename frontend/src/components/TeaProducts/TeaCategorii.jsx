@@ -1,10 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ceaiuri_tub from "../../assets/website/produse/ceaiuri/ceaiuri_tub_300x259.png";
-import ceaiuri_vrac from "../../assets/website/produse/ceaiuri/ceaiuri_vrac_300.png";
 import ceaiuri_plic from "../../assets/website/produse/ceaiuri/ceaiuri_plicuri_300.png";
 import ceaiuri_piramida from "../../assets/website/produse/ceaiuri/ceaiuri_piramide_300.png";
 import ceaiuri_asortate from "../../assets/website/produse/ceaiuri/ceaiuri_asortate_300.png";
+import set_cadou from "../../assets/website/produse/ceaiuri/set_cadou_mix_300.png";
 
 const categories = [
   {
@@ -13,13 +13,6 @@ const categories = [
     description:
       "O experiență elegantă, ceaiuri premium ambalate în tuburi minimaliste pentru prospețime și stil.",
     href: "/produse/ceaiuri/tub",
-  },
-  {
-    title: "Ceai vrac",
-    image: ceaiuri_vrac,
-    description:
-      "Descoperă arome autentice și intense, ceaiuri vrac selectate manual pentru un ritual plin de savoare.",
-    href: "/produse/ceaiuri/vrac",
   },
   {
     title: "Ceai plic",
@@ -41,6 +34,13 @@ const categories = [
     description:
       "O varietate de gusturi într-o singură cutie. Ideal pentru a explora și a descoperi aromele preferate.",
     href: "/produse/ceaiuri/asortate",
+  },
+  {
+    title: "Seturi cadou",
+    image: set_cadou,
+    description:
+      "Seturi elegante cu selecții de ceaiuri premium, perfecte pentru a oferi momente speciale celor dragi.",
+    href: "/produse/ceaiuri/seturi_cadou",
   },
 ];
 

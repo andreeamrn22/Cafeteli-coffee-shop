@@ -11,17 +11,11 @@ import Bahamian_Soursop from "../assets/website/produse/ceaiuri/ceai_plic/Bahami
 import Berry_Jam from "../assets/website/produse/ceaiuri/ceai_plic/Berry_Jam.png";
 import Champagne_splashes from "../assets/website/produse/ceaiuri/ceai_plic/Champagne_splashes.png";
 import Citrus_Melissa from "../assets/website/produse/ceaiuri/ceai_plic/Citrus_Melissa.png";
-import Cleopatra_s_night from "../assets/website/produse/ceaiuri/ceai_plic/Cleopatra_s_night.png";
-import Earl_Gray from "../assets/website/produse/ceaiuri/ceai_plic/Earl_Gray.png";
-import english_tea from "../assets/website/produse/ceaiuri/ceai_plic/english_tea.png";
-import Golden_Ceylon from "../assets/website/produse/ceaiuri/ceai_plic/Golden_Ceylon.png";
 import Love_blossom from "../assets/website/produse/ceaiuri/ceai_plic/Love_blossom.png";
 import Night_beautea from "../assets/website/produse/ceaiuri/ceai_plic/Night_beautea.png";
 import Passion_Fruit from "../assets/website/produse/ceaiuri/ceai_plic/Passion_Fruit.png";
 import Raspberrry_Vanilla from "../assets/website/produse/ceaiuri/ceai_plic/Raspberrry_Vanilla.png";
 import Royal_Dessert from "../assets/website/produse/ceaiuri/ceai_plic/Royal_Dessert.png";
-import Royal_Jasmine from "../assets/website/produse/ceaiuri/ceai_plic/Royal_Jasmine.png";
-import Special_Green from "../assets/website/produse/ceaiuri/ceai_plic/Special_Green.png";
 import Strawberry_Marshmellow from "../assets/website/produse/ceaiuri/ceai_plic/Strawberry_Marshmellow.png";
 import Wild_Berry from "../assets/website/produse/ceaiuri/ceai_plic/Wild_Berry.png";
 
@@ -52,26 +46,6 @@ const products = [
     href: "/produse/ceaiuri/plic/citrus_melissa",
   },
   {
-    image: Cleopatra_s_night,
-    name: "Cleopatra's Night",
-    href: "/produse/ceaiuri/plic/cleopatra_s_night",
-  },
-  {
-    image: Earl_Gray,
-    name: "Earl Gray",
-    href: "/produse/ceaiuri/plic/earl_gray",
-  },
-  {
-    image: english_tea,
-    name: "English Tea",
-    href: "/produse/ceaiuri/plic/english_tea",
-  },
-  {
-    image: Golden_Ceylon,
-    name: "Golden Ceylon",
-    href: "/produse/ceaiuri/plic/golden_ceylon",
-  },
-  {
     image: Love_blossom,
     name: "Love Blossom",
     href: "/produse/ceaiuri/plic/love_blossom",
@@ -95,16 +69,6 @@ const products = [
     image: Royal_Dessert,
     name: "Royal Dessert",
     href: "/produse/ceaiuri/plic/royal_dessert",
-  },
-  {
-    image: Royal_Jasmine,
-    name: "Royal Jasmine",
-    href: "/produse/ceaiuri/plic/royal_jasmine",
-  },
-  {
-    image: Special_Green,
-    name: "Special Green",
-    href: "/produse/ceaiuri/plic/special_green",
   },
   {
     image: Strawberry_Marshmellow,

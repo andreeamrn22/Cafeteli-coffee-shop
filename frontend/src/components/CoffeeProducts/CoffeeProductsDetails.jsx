@@ -51,6 +51,7 @@ const CoffeeProductsDetails = ({ productData }) => {
             </div>
           </motion.div>
 
+          {/* Descriere */}
           <div className="text-gray-800">
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
@@ -85,6 +86,7 @@ const CoffeeProductsDetails = ({ productData }) => {
           </div>
         </div>
       </div>
+
       <Footer />
       <motion.button
         onClick={scrollToTop}

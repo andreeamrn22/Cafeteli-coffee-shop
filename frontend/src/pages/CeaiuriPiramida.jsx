@@ -15,14 +15,12 @@ import ChampagneSplashes from "../assets/website/produse/ceaiuri/ceai_piramida/C
 import CherryConfiture from "../assets/website/produse/ceaiuri/ceai_piramida/CherryConfiture.png";
 import Cleopatra_s_Night from "../assets/website/produse/ceaiuri/ceai_piramida/Cleopatra_s_Night.png";
 import Creme_brulle from "../assets/website/produse/ceaiuri/ceai_piramida/Creme-brulle.png";
-import Golden_Ceylon from "../assets/website/produse/ceaiuri/ceai_piramida/Golden_Ceylon.png";
 import Golden_Mango from "../assets/website/produse/ceaiuri/ceai_piramida/Golden_Mango.png";
 import MilkOolong from "../assets/website/produse/ceaiuri/ceai_piramida/MilkOolong.png";
 import Passion_Fruit from "../assets/website/produse/ceaiuri/ceai_piramida/Passion_Fruit.png";
 import PomegranateShake from "../assets/website/produse/ceaiuri/ceai_piramida/PomegranateShake.png";
 import StrawberryMarshmallow from "../assets/website/produse/ceaiuri/ceai_piramida/StrawberryMarshmallow.png";
 import WhitePeach from "../assets/website/produse/ceaiuri/ceai_piramida/WhitePeach.png";
-import Wild_berry from "../assets/website/produse/ceaiuri/ceai_piramida/Wild_berry.png";
 
 const products = [
   {
@@ -71,11 +69,6 @@ const products = [
     href: "/produse/ceaiuri/piramida/creme_brulle",
   },
   {
-    image: Golden_Ceylon,
-    name: "Golden Ceylon",
-    href: "/produse/ceaiuri/piramida/golden_ceylon",
-  },
-  {
     image: Golden_Mango,
     name: "Golden Mango",
     href: "/produse/ceaiuri/piramida/golden_mango",
@@ -104,11 +97,6 @@ const products = [
     image: WhitePeach,
     name: "White Peach",
     href: "/produse/ceaiuri/piramida/white_peach",
-  },
-  {
-    image: Wild_berry,
-    name: "Wild Berry",
-    href: "/produse/ceaiuri/piramida/wild_berry",
   },
 ];
 

@@ -13,7 +13,6 @@ import Berry_jam from "../assets/website/produse/ceaiuri/ceai_tub/Berry_jam.png"
 import Champagne_Splashes from "../assets/website/produse/ceaiuri/ceai_tub/Champagne_Splashes.png";
 import Cleopatra_s_night from "../assets/website/produse/ceaiuri/ceai_tub/Cleopatra_s_night.png";
 import Love_blossom from "../assets/website/produse/ceaiuri/ceai_tub/Love-blossom.png";
-import Night_beautea from "../assets/website/produse/ceaiuri/ceai_tub/Night-beautea.png";
 import Passion_fruit from "../assets/website/produse/ceaiuri/ceai_tub/Passion_fruit.png";
 import Royal_dessert from "../assets/website/produse/ceaiuri/ceai_tub/Royal_dessert.png";
 import Strawberry_Marshmallow from "../assets/website/produse/ceaiuri/ceai_tub/Strawberry_Marshmallow.png";
@@ -54,11 +53,6 @@ const products = [
     image: Love_blossom,
     name: "Love Blossom",
     href: "/produse/ceaiuri/tub/love_blossom",
-  },
-  {
-    image: Night_beautea,
-    name: "Night Beautea",
-    href: "/produse/ceaiuri/tub/night_beautea",
   },
   {
     image: Passion_fruit,

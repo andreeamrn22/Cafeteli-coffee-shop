@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import columbia from "../../assets/website/produse/poze_facute_de_min/cafea_boabe/columbia_mica1.png";
+import columbia from "../../assets/website/produse/columbia_mica1.png";
 import irish_coffee from "../../assets/website/produse/poze_facute_de_min/cafea_boabe/irish_coffee.png";
 import el_salvador from "../../assets/website/produse/poze_facute_de_min/cafea_boabe/el_salvador.png";
 import line_frame from "../../assets/website/line_frame.jpg";

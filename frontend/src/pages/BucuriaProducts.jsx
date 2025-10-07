@@ -4,7 +4,7 @@ import { IoIosArrowUp } from "react-icons/io";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import ReusableHeader from "../components/ReusableHeader/ReusableHeader";
-import Bucuria from "../components/BucuriaProducts/Bucuria";
+import BucuriaCategorii from "../components/BucuriaProducts/BucuriaCategorii";
 import bomboaneBucuria from "../assets/website/produse/dulciuri_bucuria/dulciuri_bucuria.png";
 
 const BucuriaProducts = () => {
@@ -39,7 +39,7 @@ const BucuriaProducts = () => {
         backgroundImage={bomboaneBucuria}
         title="Dulciuri Bucuria"
       />
-      <Bucuria />
+      <BucuriaCategorii />
       <Footer />
       <motion.button
         onClick={scrollToTop}

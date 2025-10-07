@@ -42,7 +42,7 @@ const Homepage = () => {
       <Services />
       <Products />
       <About />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Footer />
       <motion.button
         onClick={scrollToTop}
