@@ -41,8 +41,49 @@ import MiscelaItaliana from "./components/BlendCoffee/MiscelaItaliana";
 
 import TeaCategory from "../src/pages/TeaCategory";
 import CeaiuriTub from "./pages/CeaiuriTub";
+import NightsTub from "./components/TeaProducts/Ceaiuri_Tub/NightsTub";
+import ChampagneSplashesTub from "./components/TeaProducts/Ceaiuri_Tub/ChampagneSplashesTub";
+import AlpineHerbsTub from "./components/TeaProducts/Ceaiuri_Tub/AlpineHerbsTub";
+import BahamianSoursopTub from "./components/TeaProducts/Ceaiuri_Tub/BahamianSoursopTub";
+import BerryJamTub from "./components/TeaProducts/Ceaiuri_Tub/BerryJamTub";
+import CleopatraNightTub from "./components/TeaProducts/Ceaiuri_Tub/CleopatraNightTub";
+import LoveBlossomTub from "./components/TeaProducts/Ceaiuri_Tub/LoveBlossomTub";
+import PassionFruitTub from "./components/TeaProducts/Ceaiuri_Tub/PassionFruitTub";
+import RoyalDessertTub from "./components/TeaProducts/Ceaiuri_Tub/RoyalDessertTub";
+import StrawberryMarshmallowTub from "./components/TeaProducts/Ceaiuri_Tub/StrawberryMarshmallowTub";
+import WildBerryTub from "./components/TeaProducts/Ceaiuri_Tub/WildBerryTub";
+
 import CeaiuriPlic from "./pages/CeaiuriPlic";
+import NightsPlic from "./components/TeaProducts/CeaiuriPlic/NightsPlic";
+import ChampagneSplashesPlic from "./components/TeaProducts/CeaiuriPlic/ChampagneSplashesPlic";
+import CitrusMelissaPlic from "./components/TeaProducts/CeaiuriPlic/CitrusMelissaPlic";
+import BahamianSoursopPlic from "./components/TeaProducts/CeaiuriPlic/BahamianSoursopPlic";
+import BerryJamPlic from "./components/TeaProducts/CeaiuriPlic/BerryJamPlic";
+import LoveBlossomPlic from "./components/TeaProducts/CeaiuriPlic/LoveBlossomPlic";
+import PassionFruitPlic from "./components/TeaProducts/CeaiuriPlic/PassionFruitPlic";
+import RoyalDessertPlic from "./components/TeaProducts/CeaiuriPlic/RoyalDessertPlic";
+import StrawberryMarshmallowPlic from "./components/TeaProducts/CeaiuriPlic/StrawberryMarshmallowPlic";
+import WildBerryPlic from "./components/TeaProducts/CeaiuriPlic/WildBerryPlic";
+import NightBeauteaPlic from "./components/TeaProducts/CeaiuriPlic/NightBeauteaPlic";
+import RaspberryVanillaPlic from "./components/TeaProducts/CeaiuriPlic/RaspberryVanillaPlic";
+
 import CeaiuriPiramida from "./pages/CeaiuriPiramida";
+import NightsPiramida from "./components/TeaProducts/CeaiuriPiramida/NightsPiramida";
+import AlpineHerbsPiramida from "./components/TeaProducts/CeaiuriPiramida/AlpineHerbsPiramida";
+import ChampagneSplashesPiramida from "./components/TeaProducts/CeaiuriPiramida/ChampagneSplashesPiramida";
+import CleopatraNightPiramida from "./components/TeaProducts/CeaiuriPiramida/CleopatraNightPiramida";
+import BahamianSoursopPiramida from "./components/TeaProducts/CeaiuriPiramida/BahamianSoursopPiramida";
+import BerryJamPiramida from "./components/TeaProducts/CeaiuriPiramida/BerryJamPiramida";
+import CherryConfiturePiramida from "./components/TeaProducts/CeaiuriPiramida/CherryConfiturePiramida";
+import CremeBrullePiramida from "./components/TeaProducts/CeaiuriPiramida/CremeBrullePiramida";
+import PassionFruitPiramida from "./components/TeaProducts/CeaiuriPiramida/PassionFruitPiramida";
+import StrawberryMarshmallowPiramida from "./components/TeaProducts/CeaiuriPiramida/StrawberryMarshmallowPiramida";
+import GoldenMangoPiramida from "./components/TeaProducts/CeaiuriPiramida/GoldenMangoPiramida";
+import BergamotVanillaPiramida from "./components/TeaProducts/CeaiuriPiramida/BergamotVanillaPiramida";
+import MilkOolongPiramida from "./components/TeaProducts/CeaiuriPiramida/MilkOolongPiramida";
+import PomegranateShakePiramida from "./components/TeaProducts/CeaiuriPiramida/PomegranateShakePiramida";
+import WhitePeachPiramida from "./components/TeaProducts/CeaiuriPiramida/WhitePeachPiramida";
+
 import CeaiuriAsortate from "./pages/CeaiuriAsortate";
 import GreenTea from "./components/TeaProducts/Ceaiuri_Asortate/GreenTea";
 import Bergamot from "./components/TeaProducts/Ceaiuri_Asortate/Bergamot";
@@ -82,44 +123,30 @@ import BucuriaBomboane from "./pages/BucuriaBomboane";
 import BucuriaBiscuiti from "./pages/BucuriaBiscuiti";
 import BucuriaFaraZahar from "./pages/BucuriaFaraZahar";
 import Meteorit_SANA from "./components/BucuriaProducts/Fara_Zahar/Meteorit_SANA";
-import NightsTub from "./components/TeaProducts/Ceaiuri_Tub/NightsTub";
-import NightsPlic from "./components/TeaProducts/CeaiuriPlic/NightsPlic";
-import NightsPiramida from "./components/TeaProducts/CeaiuriPiramida/NightsPiramida";
-import AlpineHerbsPiramida from "./components/TeaProducts/CeaiuriPiramida/AlpineHerbsPiramida";
-import ChampagneSplashesPiramida from "./components/TeaProducts/CeaiuriPiramida/ChampagneSplashesPiramida";
-import CleopatraNightPiramida from "./components/TeaProducts/CeaiuriPiramida/CleopatraNightPiramida";
-import BahamianSoursopPiramida from "./components/TeaProducts/CeaiuriPiramida/BahamianSoursopPiramida";
-import BerryJamPiramida from "./components/TeaProducts/CeaiuriPiramida/BerryJamPiramida";
-import CherryConfiturePiramida from "./components/TeaProducts/CeaiuriPiramida/CherryConfiturePiramida";
-import CremeBrullePiramida from "./components/TeaProducts/CeaiuriPiramida/CremeBrullePiramida";
-import PassionFruitPiramida from "./components/TeaProducts/CeaiuriPiramida/PassionFruitPiramida";
-import StrawberryMarshmallowPiramida from "./components/TeaProducts/CeaiuriPiramida/StrawberryMarshmallowPiramida";
-import GoldenMangoPiramida from "./components/TeaProducts/CeaiuriPiramida/GoldenMangoPiramida";
-import BergamotVanillaPiramida from "./components/TeaProducts/CeaiuriPiramida/BergamotVanillaPiramida";
-import MilkOolongPiramida from "./components/TeaProducts/CeaiuriPiramida/MilkOolongPiramida";
-import PomegranateShakePiramida from "./components/TeaProducts/CeaiuriPiramida/PomegranateShakePiramida";
-import WhitePeachPiramida from "./components/TeaProducts/CeaiuriPiramida/WhitePeachPiramida";
-import ChampagneSplashesPlic from "./components/TeaProducts/CeaiuriPlic/ChampagneSplashesPlic";
-import CitrusMelissaPlic from "./components/TeaProducts/CeaiuriPlic/CitrusMelissaPlic";
-import BahamianSoursopPlic from "./components/TeaProducts/CeaiuriPlic/BahamianSoursopPlic";
-import BerryJamPlic from "./components/TeaProducts/CeaiuriPlic/BerryJamPlic";
-import LoveBlossomPlic from "./components/TeaProducts/CeaiuriPlic/LoveBlossomPlic";
-import PassionFruitPlic from "./components/TeaProducts/CeaiuriPlic/PassionFruitPlic";
-import RoyalDessertPlic from "./components/TeaProducts/CeaiuriPlic/RoyalDessertPlic";
-import StrawberryMarshmallowPlic from "./components/TeaProducts/CeaiuriPlic/StrawberryMarshmallowPlic";
-import WildBerryPlic from "./components/TeaProducts/CeaiuriPlic/WildBerryPlic";
-import NightBeauteaPlic from "./components/TeaProducts/CeaiuriPlic/NightBeauteaPlic";
-import RaspberryVanillaPlic from "./components/TeaProducts/CeaiuriPlic/RaspberryVanillaPlic";
-import ChampagneSplashesTub from "./components/TeaProducts/Ceaiuri_Tub/ChampagneSplashesTub";
-import AlpineHerbsTub from "./components/TeaProducts/Ceaiuri_Tub/AlpineHerbsTub";
-import BahamianSoursopTub from "./components/TeaProducts/Ceaiuri_Tub/BahamianSoursopTub";
-import BerryJamTub from "./components/TeaProducts/Ceaiuri_Tub/BerryJamTub";
-import CleopatraNightTub from "./components/TeaProducts/Ceaiuri_Tub/CleopatraNightTub";
-import LoveBlossomTub from "./components/TeaProducts/Ceaiuri_Tub/LoveBlossomTub";
-import PassionFruitTub from "./components/TeaProducts/Ceaiuri_Tub/PassionFruitTub";
-import RoyalDessertTub from "./components/TeaProducts/Ceaiuri_Tub/RoyalDessertTub";
-import StrawberryMarshmallowTub from "./components/TeaProducts/Ceaiuri_Tub/StrawberryMarshmallowTub";
-import WildBerryTub from "./components/TeaProducts/Ceaiuri_Tub/WildBerryTub";
+import Tarancuta from "./components/BucuriaProducts/Biscuiti/Tarancuta";
+import LapteTopit from "./components/BucuriaProducts/Biscuiti/LapteTopit";
+import MilkWow from "./components/BucuriaProducts/Biscuiti/MilkWow";
+import ChisinauDeSeara from "./components/BucuriaProducts/Bomboane/ChisinauDeSeara";
+import Meteorit from "./components/BucuriaProducts/Bomboane/Meteorit";
+import Bucuria from "./components/BucuriaProducts/Bomboane/Bucuria";
+import LaptePasare from "./components/BucuriaProducts/Bomboane/LaptePasare";
+import LaptePasareBanane from "./components/BucuriaProducts/Bomboane/LaptePasareBanane";
+import LaptePasareCapsiuni from "./components/BucuriaProducts/Bomboane/LaptePasareCapsiuni";
+import Griliaj from "./components/BucuriaProducts/Bomboane/Griliaj";
+import LaptePasareCocos from "./components/BucuriaProducts/Bomboane/LaptePasareCocos";
+import LaptePasareCiocolata from "./components/BucuriaProducts/Bomboane/LaptePasareCiocolata";
+import LaptePasareLamaie from "./components/BucuriaProducts/Bomboane/LaptePasareLamaie";
+import StruguriCiocolata from "./components/BucuriaProducts/Bomboane/StruguriCiocolata";
+import VisinaCiocolata from "./components/BucuriaProducts/Bomboane/VisinaCiocolata";
+import InspiratieCaisa from "./components/BucuriaProducts/Bomboane/InspiratieCaisa";
+import InspiratieLamaie from "./components/BucuriaProducts/Bomboane/InspiratieLamaie";
+import InspiratiePortocala from "./components/BucuriaProducts/Bomboane/InspiratiePortocala";
+import InspiratieVisine from "./components/BucuriaProducts/Bomboane/InspiratieVisine";
+import Duet from "./components/BucuriaProducts/Bomboane/Duet";
+import Favorit from "./components/BucuriaProducts/Bomboane/Favorit";
+import Brandusa from "./components/BucuriaProducts/Bomboane/Brandusa";
+import Clepsidra from "./components/BucuriaProducts/Bomboane/Clepsidra";
+import Dulcineea from "./components/BucuriaProducts/Bomboane/Dulcineea";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -432,7 +459,93 @@ createRoot(document.getElementById("root")).render(
 
         <Route path="/produse/bucuria" element={<BucuriaProducts />} />
         <Route path="/produse/bucuria/bomboane" element={<BucuriaBomboane />} />
+        <Route
+          path="/produse/bucuria/bomboane/chisinau_de_seara"
+          element={<ChisinauDeSeara />}
+        />
+        <Route
+          path="/produse/bucuria/bomboane/meteorit"
+          element={<Meteorit />}
+        />
+        <Route path="/produse/bucuria/bomboane/bucuria" element={<Bucuria />} />
+        <Route path="/produse/bucuria/bomboane/griliaj" element={<Griliaj />} />
+        <Route
+          path="/produse/bucuria/bomboane/lapte_de_pasare"
+          element={<LaptePasare />}
+        />
+        <Route
+          path="/produse/bucuria/bomboane/lapte_de_pasare_banane"
+          element={<LaptePasareBanane />}
+        />
+        <Route
+          path="/produse/bucuria/bomboane/lapte_de_pasare_capsiuni"
+          element={<LaptePasareCapsiuni />}
+        />
+        <Route
+          path="/produse/bucuria/bomboane/lapte_de_pasare_cocos"
+          element={<LaptePasareCocos />}
+        />
+        <Route
+          path="/produse/bucuria/bomboane/lapte_de_pasare_ciocolata"
+          element={<LaptePasareCiocolata />}
+        />
+        <Route
+          path="/produse/bucuria/bomboane/lapte_de_pasare_lamaie"
+          element={<LaptePasareLamaie />}
+        />
+        <Route
+          path="/produse/bucuria/bomboane/struguri_in_ciocolata"
+          element={<StruguriCiocolata />}
+        />
+        <Route
+          path="/produse/bucuria/bomboane/visina_in_ciocolata"
+          element={<VisinaCiocolata />}
+        />
+        <Route
+          path="/produse/bucuria/bomboane/inspiratie_caisa"
+          element={<InspiratieCaisa />}
+        />
+        <Route
+          path="/produse/bucuria/bomboane/inspiratie_lamaie"
+          element={<InspiratieLamaie />}
+        />
+        <Route
+          path="/produse/bucuria/bomboane/inspiratie_portocala"
+          element={<InspiratiePortocala />}
+        />
+        <Route
+          path="/produse/bucuria/bomboane/inspiratie_visine"
+          element={<InspiratieVisine />}
+        />
+        <Route path="/produse/bucuria/bomboane/duet" element={<Duet />} />
+        <Route path="/produse/bucuria/bomboane/favorit" element={<Favorit />} />
+        <Route
+          path="/produse/bucuria/bomboane/brandusa"
+          element={<Brandusa />}
+        />
+        <Route
+          path="/produse/bucuria/bomboane/clepsidra"
+          element={<Clepsidra />}
+        />
+        <Route
+          path="/produse/bucuria/bomboane/dulcineea"
+          element={<Dulcineea />}
+        />
+
         <Route path="/produse/bucuria/biscuiti" element={<BucuriaBiscuiti />} />
+        <Route
+          path="/produse/bucuria/biscuiti/tarancuta"
+          element={<Tarancuta />}
+        />
+        <Route
+          path="/produse/bucuria/biscuiti/lapte_topit"
+          element={<LapteTopit />}
+        />
+        <Route
+          path="/produse/bucuria/biscuiti/milk_wow"
+          element={<MilkWow />}
+        />
+
         <Route
           path="/produse/bucuria/fara_zahar"
           element={<BucuriaFaraZahar />}

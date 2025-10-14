@@ -35,6 +35,26 @@ const iceCoffee = [
 
 const NonCoffee = [
   {
+    name: "Salted Caramel Frappe",
+    description: "(350 ml)",
+    price: "13.00 LEI",
+  },
+  {
+    name: "Salted Caramel Frappe",
+    description: "(450 ml)",
+    price: "15.00 LEI",
+  },
+  {
+    name: "Red Velvet Frappe",
+    description: "(350 ml)",
+    price: "13.00 LEI",
+  },
+  {
+    name: "Red Velvet Frappe",
+    description: "(450 ml)",
+    price: "15.00 LEI",
+  },
+  {
     name: "Ceai",
     description: "(cireșe, fructe de pădure, lămâie, mentă, mușețel)",
     price: "5.00 LEI",

@@ -18,8 +18,8 @@ import lapte_de_pasare_cocos from "../assets/website/produse/dulciuri_bucuria/bo
 import lapte_de_pasare_ciocolata from "../assets/website/produse/dulciuri_bucuria/bomboane/lapte_de_pasare_ciocolata.jpg";
 import lapte_de_pasare_lamaie from "../assets/website/produse/dulciuri_bucuria/bomboane/lapte_de_pasare_lamaie.jpg";
 
-import struguri_in_cioclata from "../assets/website/produse/dulciuri_bucuria/bomboane/struguri_in_ciocolata.jpg";
-import visina_in_cioclata from "../assets/website/produse/dulciuri_bucuria/bomboane/visina_in_ciocolata.jpg";
+import struguri_in_ciocolata from "../assets/website/produse/dulciuri_bucuria/bomboane/struguri_in_ciocolata.jpg";
+import visina_in_ciocolata from "../assets/website/produse/dulciuri_bucuria/bomboane/visina_in_ciocolata.jpg";
 
 import inspiratie_caisa from "../assets/website/produse/dulciuri_bucuria/bomboane/inspiratie_caisa.jpg";
 import inspiratie_lamaie from "../assets/website/produse/dulciuri_bucuria/bomboane/inspiratie_lamaie.jpg";
@@ -85,14 +85,14 @@ const products = [
     href: "/produse/bucuria/bomboane/lapte_de_pasare_lamaie",
   },
   {
-    image: struguri_in_cioclata,
+    image: struguri_in_ciocolata,
     name: "Struguri în ciocolată",
-    href: "/produse/bucuria/bomboane/struguri_in_cioclata",
+    href: "/produse/bucuria/bomboane/struguri_in_ciocolata",
   },
   {
-    image: visina_in_cioclata,
+    image: visina_in_ciocolata,
     name: "Vișină în ciocolată",
-    href: "/produse/bucuria/bomboane/visina_in_cioclata",
+    href: "/produse/bucuria/bomboane/visina_in_ciocolata",
   },
   {
     image: inspiratie_caisa,
