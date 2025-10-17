@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import ReusableHeader from "../components/ReusableHeader/ReusableHeader";
 import ProductDisplay from "../components/TeaProducts/TeaProductsDisplay";
-import poza from "../assets/website/produse/dulciuri_bucuria/fara_zahar.jpg";
+import poza from "../assets/website/produse/dulciuri_bucuria/fara_zahar.png";
 import meteorit_sana from "../assets/website/produse/dulciuri_bucuria/fara_zahar/meteorit_sana.jpg";
 
 const products = [

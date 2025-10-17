@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import ReusableHeader from "../components/ReusableHeader/ReusableHeader";
 import BucuriaCategorii from "../components/BucuriaProducts/BucuriaCategorii";
-import bomboaneBucuria from "../assets/website/produse/dulciuri_bucuria/dulciuri_bucuria.png";
+import bomboaneBucuria from "../assets/website/produse/dulciuri_bucuria/dulciuri_bucuria.jpg";
 
 const BucuriaProducts = () => {
   const [showGoToTop, setShowGoToTop] = useState(false);

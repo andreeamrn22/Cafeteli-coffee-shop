@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import bomboane from "../../assets/website/produse/dulciuri_bucuria/bomboane_ambalate.jpg";
+import bomboane from "../../assets/website/produse/dulciuri_bucuria/bomboane_bucuria.jpg";
 import biscuiti from "../../assets/website/produse/dulciuri_bucuria/biscuiti.jpg";
 import fara_zahar from "../../assets/website/produse/dulciuri_bucuria/fara_zahar.png";
 

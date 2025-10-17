@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import ReusableHeader from "../components/ReusableHeader/ReusableHeader";
 import ProductDisplay from "../components/TeaProducts/TeaProductsDisplay";
-import poza from "../assets/website/produse/dulciuri_bucuria/bomboane_ambalate.jpg";
+import poza from "../assets/website/produse/dulciuri_bucuria/bomboane_bucuria.jpg";
 import chisinau_de_seara from "../assets/website/produse/dulciuri_bucuria/bomboane/chisinau_de_seara.jpg";
 import meteorit from "../assets/website/produse/dulciuri_bucuria/bomboane/meteorit.jpg";
 import bucuria from "../assets/website/produse/dulciuri_bucuria/bomboane/bucuria.jpg";
