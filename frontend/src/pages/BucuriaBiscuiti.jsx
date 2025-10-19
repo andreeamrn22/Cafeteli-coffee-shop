@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import ReusableHeader from "../components/ReusableHeader/ReusableHeader";
 import ProductDisplay from "../components/TeaProducts/TeaProductsDisplay";
-import poza from "../assets/website/produse/dulciuri_bucuria/biscuiti.jpg";
+import poza from "../assets/website/produse/dulciuri_bucuria/biscuiti_bucuria.jpg";
 import tarancuta from "../assets/website/produse/dulciuri_bucuria/biscuiti/tarancuta1.png";
 import lapte_topit from "../assets/website/produse/dulciuri_bucuria/biscuiti/lapte_topit.png";
 import milk_wow from "../assets/website/produse/dulciuri_bucuria/biscuiti/milk_wow.png";
