@@ -30,7 +30,6 @@ import duet from "../assets/website/produse/dulciuri_bucuria/bomboane/duet.jpg";
 import favorit from "../assets/website/produse/dulciuri_bucuria/bomboane/favorit.jpg";
 import brandusa from "../assets/website/produse/dulciuri_bucuria/bomboane/brandusa.png";
 import clepsidra from "../assets/website/produse/dulciuri_bucuria/bomboane/clepsidra.png";
-import dulcineea from "../assets/website/produse/dulciuri_bucuria/bomboane/dulcineea.jpg";
 
 const products = [
   {
@@ -133,11 +132,6 @@ const products = [
     image: clepsidra,
     name: "Clepsidra",
     href: "/produse/bucuria/bomboane/clepsidra",
-  },
-  {
-    image: dulcineea,
-    name: "Fondante Dulcineea",
-    href: "/produse/bucuria/bomboane/dulcineea",
   },
 ];
 

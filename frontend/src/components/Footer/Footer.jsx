@@ -138,6 +138,14 @@ const Footer = () => {
                 <img src={SOL} alt="SOL" className="w-[250px] h-[50px]" />
               </a>
             </div>
+
+            {/* SECȚIUNEA COPYRIGHT */}
+            <div className="border-t border-gray-500/30 mt-12 pt-6 px-4 text-center md:text-left text-base md:text-md text-gray-300">
+              <p>
+                &copy; {new Date().getFullYear()} Cafeteli. Toate drepturile
+                rezervate.
+              </p>
+            </div>
           </div>
         </div>
       </div>
