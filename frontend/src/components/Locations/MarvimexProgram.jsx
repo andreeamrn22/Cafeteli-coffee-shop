@@ -1,5 +1,5 @@
 import React from "react";
-import marvimex from "../../assets/website/marvimex1_erased.png";
+import marvimex from "../../assets/website/Marvimex-crop.jpeg";
 
 const MarvimexProgram = () => {
   return (
@@ -22,7 +22,7 @@ const MarvimexProgram = () => {
         </div>
 
         {/* Image section */}
-        <div className="w-full md:w-[364px] lg:w-[492px] xl:w-[700px] object-cover">
+        <div className="w-full md:w-[364px] lg:w-[492px] xl:w-[400px] object-cover">
           <img src={marvimex} />
         </div>
       </div>

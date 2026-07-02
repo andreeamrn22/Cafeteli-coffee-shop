@@ -27,7 +27,7 @@ const BucuriaCategorii = () => {
     hidden: { opacity: 0, y: 50 },
     visible: { opacity: 1, y: 0, transition: { duration: 1 } },
   };
-  const isSummer = false; // Change to false when it's cold outside
+  const isSummer = true; // Change to false when it's cold outside
 
   if (isSummer) {
     return (

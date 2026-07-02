@@ -12,9 +12,14 @@ const CasaDeCulturaContact = () => {
           {/* Email */}
           <div className="flex flex-col items-center">
             <HiOutlineMail className="text-5xl mb-5" />
-            <p className="text-lg md:text-xl font-medium text-gray-800 ">
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=dan2012m@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lg md:text-xl font-medium text-gray-800 transition-transform duration-200 hover:scale-110 inline-block"
+            >
               dan2012m@gmail.com
-            </p>
+            </a>
             {/* Buton WhatsApp */}
             <a
               href="https://wa.me/40723766387"

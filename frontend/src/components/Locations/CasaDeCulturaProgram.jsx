@@ -1,5 +1,5 @@
 import React from "react";
-import exterior from "../../assets/website/CasaDeCultura1.jpg";
+import exterior from "../../assets/website/CasaDeCultura1-crop.jpg";
 
 const CasaDeCulturaProgram = () => {
   return (

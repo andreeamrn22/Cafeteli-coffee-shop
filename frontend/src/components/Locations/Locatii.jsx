@@ -1,6 +1,6 @@
 import React from "react";
-import marvimex from "../../assets/website/marvimex1_erased.png";
-import casaDeCultura from "../../assets/website/CasaDeCultura1.jpg";
+import marvimex from "../../assets/website/Marvimex-crop.jpeg";
+import casaDeCultura from "../../assets/website/CasaDeCultura1-crop.jpg";
 import Bg from "../../assets/website/background/BrownandCreamCoffeeBG.png";
 import { motion } from "framer-motion";
 
